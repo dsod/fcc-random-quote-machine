@@ -1,2 +1,9 @@
 @import-normalize; /* bring in normalize.css styles */
+
+$fa-font-path: '../webfonts';
+$enable-gradients: true;
+
 @import '~bootstrap/scss/bootstrap';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/solid';
